@@ -11,9 +11,9 @@ export class QuotesComponent implements OnInit {
   @Input()quote: Quote;
 
   quotes = [
-    // new Quote(1, 'Loyangapuo', 'Kijana mfupi,amenona,round', 0, 0),
-    // new Quote(2, 'Eminem', 'Keep it real', 0, 0),
-    // new Quote(3, 'Men from Valyria', 'What is dead may never die', 0, 0),
+     new Quote(1, 'Loyangapuo', 'Kijana mfupi,amenona,round', 0, 0),
+     new Quote(2, 'Eminem', 'Keep it real', 0, 0),
+     new Quote(3, 'Men from Valyria', 'What is dead may never die', 0, 0),
   ];
   addAnotherQuote (quote: any) {
    const quoteLength = this.quotes.length;
