@@ -35,7 +35,7 @@ The following languages have been used to write the application:
 
 ## License and copyright information
 
-MIT License
+[MIT License](https://github.com/Kibet1816/Quotes/blob/master/license.md)
 
 Copyright (c) 2019 Denis Kibet
 
