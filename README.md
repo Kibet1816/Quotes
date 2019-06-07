@@ -1,27 +1,41 @@
-# Quote
+# Quotes-application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+## Authors
+- [Denis Kibet](https://github.com/Kibet1816)
 
-## Development server
+## Project description
+This is a web application that allows a user to add,view,upvote or downvote a quote.
+ 
+## Setup instructions
+- A computer with a modern browser
+- Clone this repository
+- Run `ng serve` command on the command line".
+- Navigate to `https://localhost:4200/`
+- Enjoy the application.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## BDD
+| Input        | Behaviour           | Outcome  |
+| ------------- |:-------------:| -----:|
+| Adds a quote | Submit button is enabled | Quote is generated in a card |
+| Clicks upvote | Quote is upvoted | Upvote counter increases by a vote |
+| Clicks downvote | Quote is downvoted | Downvote increases by a vote |
+| Clicks delete | Confirmation message appears in a dialog box | Two options.Either "cancel" or "ok" |
+| Clicks ok | Quote is deleted | Quote is removed from the display |
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Technologies used
+The following languages have been used to write the application:
+- HTML,
+- TypeScript,
+- CSS,
+- Markdown,
+- Git,
+- AngularJS
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## License and copyright information
 
-## Running unit tests
+MIT License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Copyright (c) 2019 Denis Kibet
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
