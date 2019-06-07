@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { QuotesComponent } from './quotes/quotes.component';
 import { QuotesFormComponent } from './quotes-form/quotes-form.component';
 import { QuotesDetailsComponent } from './quotes-details/quotes-details.component';
+import { TimePassPipe } from './time-pass.pipe';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuotesComponent,
     QuotesFormComponent,
-    QuotesDetailsComponent
+    QuotesDetailsComponent,
+    TimePassPipe,
+    HighlightDirective
   ],
   imports: [
     BrowserModule
