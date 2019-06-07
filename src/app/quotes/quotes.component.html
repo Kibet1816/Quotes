@@ -1,0 +1,24 @@
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <app-quote-form (addQuote)="addAnotherQuote($event)"></app-quote-form>
+      </div>
+      <div class="col-md-6">
+        <div *ngFor="let quote of quotes;let i=index"><br><br>
+          <div class="card">
+            <div class="card-title">
+              <p>Quote by: {{quote.author}}</p>
+            </div>
+            <div class="card-body">
+              <p><span class="show">Scripture:</span> "{{quote.quote}}"</p>
+              <p><span class="show">Posted on:</span> {{quote.date}}</p>
+              <p><span class="show" >Quote posted by:</span> {{quote.publisher}}</p> <br>
+              <app-quote-details [quote]="quote" (isComplete)="quoteDelete($event, i)" ></app-quote-details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
