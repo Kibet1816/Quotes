@@ -3,10 +3,10 @@ import {Quote} from '../quote';
 
 @Component({
   selector: 'app-quote-form',
-  templateUrl: './quote-form.component.html',
-  styleUrls: ['./quote-form.component.css']
+  templateUrl: './quotes-form.component.html',
+  styleUrls: ['./quotes-form.component.css']
 })
-export class QuoteFormComponent implements OnInit {
+export class QuotesFormComponent implements OnInit {
 
   newQuote = new Quote(0, '', '', '', 0, 0, new Date());
 

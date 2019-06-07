@@ -14,7 +14,7 @@
               <p><span class="show">Scripture:</span> "{{quote.quote}}"</p>
               <p><span class="show">Posted on:</span> {{quote.date}}</p>
               <p><span class="show" >Quote posted by:</span> {{quote.publisher}}</p> <br>
-              <app-quote-details [quote]="quote" (isComplete)="quoteDelete($event, i)" ></app-quote-details>
+              <app-quotes-details [quote]="quote" (isComplete)="quoteDelete($event, i)" ></app-quotes-details>
             </div>
           </div>
         </div>

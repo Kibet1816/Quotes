@@ -2,11 +2,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import {Quote} from '../quote';
 
 @Component({
-  selector: 'app-quote',
-  templateUrl: './quote.component.html',
-  styleUrls: ['./quote.component.css']
+  selector: 'app-quotes',
+  templateUrl: './quotes.component.html',
+  styleUrls: ['./quotes.component.css']
 })
-export class QuoteComponent implements OnInit {
+export class QuotesComponent implements OnInit {
 
   @Input()quote: Quote;
 
